@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Filter, Grid, List } from "lucide-react";
@@ -21,28 +20,28 @@ const Lookbook = () => {
       name: "Oversized Streetwear Hoodie",
       price: "₹1,999",
       category: "hoodies",
-      image: "https://images.unsplash.com/photo-1556821840-3a9fbc86780e?w=400&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
       sizes: ["S", "M", "L", "XL", "XXL"]
     },
     {
       id: 2,
-      name: "Graphic Print Tee",
+      name: "Oversized Graphic Print Tee",
       price: "₹899",
       category: "tees",
-      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=400&h=500&fit=crop",
       sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 3,
-      name: "Cargo Utility Pants",
+      name: "Oversized Cargo Utility Pants",
       price: "₹2,499",
       category: "pants",
-      image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop",
       sizes: ["28", "30", "32", "34", "36"]
     },
     {
       id: 4,
-      name: "Distressed Denim Jacket",
+      name: "Oversized Distressed Denim Jacket",
       price: "₹3,299",
       category: "hoodies",
       image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
@@ -50,7 +49,7 @@ const Lookbook = () => {
     },
     {
       id: 5,
-      name: "Vintage Wash Tee",
+      name: "Oversized Vintage Wash Tee",
       price: "₹1,199",
       category: "tees",
       image: "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=400&h=500&fit=crop",
@@ -58,7 +57,7 @@ const Lookbook = () => {
     },
     {
       id: 6,
-      name: "Wide Leg Trousers",
+      name: "Oversized Wide Leg Trousers",
       price: "₹2,799",
       category: "pants",
       image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop",
@@ -66,7 +65,7 @@ const Lookbook = () => {
     },
     {
       id: 7,
-      name: "Bucket Hat",
+      name: "Oversized Bucket Hat",
       price: "₹699",
       category: "accessories",
       image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=500&fit=crop",
@@ -74,10 +73,10 @@ const Lookbook = () => {
     },
     {
       id: 8,
-      name: "Cropped Hoodie",
+      name: "Oversized Cropped Hoodie",
       price: "₹1,799",
       category: "hoodies",
-      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
       sizes: ["S", "M", "L", "XL"]
     },
   ];

@@ -11,7 +11,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=1200&h=800&fit=crop')`
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1556821840-3a9fbc86780e?w=1200&h=800&fit=crop')`
           }}
         />
         
@@ -72,17 +72,17 @@ const Index = () => {
               {
                 title: "Oversized Hoodies",
                 price: "₹1,999",
-                image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=500&fit=crop"
+                image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop"
               },
               {
-                title: "Cargo Pants",
+                title: "Oversized Cargo Pants",
                 price: "₹2,499",
-                image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=500&fit=crop"
+                image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop"
               },
               {
-                title: "Graphic Tees",
+                title: "Oversized Graphic Tees",
                 price: "₹899",
-                image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=500&fit=crop"
+                image: "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=400&h=500&fit=crop"
               }
             ].map((item, index) => (
               <div key={index} className="group cursor-pointer">
