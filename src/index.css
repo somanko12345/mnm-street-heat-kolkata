@@ -87,18 +87,18 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #00FF88;
+    background: #FFD700;
     border-radius: 3px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #00CC6A;
+    background: #B8860B;
   }
 }
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-brand-neon to-brand-electric bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-brand-gold to-brand-darkgold bg-clip-text text-transparent;
   }
 
   .hover-scale {

@@ -31,7 +31,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 to="/lookbook"
-                className="bg-brand-neon text-brand-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-brand-neon/90 transition-all duration-300 hover-scale flex items-center gap-2"
+                className="bg-brand-gold text-brand-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-brand-darkgold transition-all duration-300 hover-scale flex items-center gap-2"
               >
                 Explore the Collection
                 <ArrowRight size={20} />
@@ -52,7 +52,7 @@ const Index = () => {
         
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-1 h-8 bg-brand-neon rounded-full opacity-60"></div>
+          <div className="w-1 h-8 bg-brand-gold rounded-full opacity-60"></div>
         </div>
       </section>
 
@@ -95,14 +95,14 @@ const Index = () => {
                   <div className="absolute inset-0 bg-brand-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <Link
                       to="/order"
-                      className="bg-brand-neon text-brand-black px-6 py-3 rounded-lg font-semibold hover:bg-brand-neon/90 transition-colors"
+                      className="bg-brand-gold text-brand-black px-6 py-3 rounded-lg font-semibold hover:bg-brand-darkgold transition-colors"
                     >
                       Order Now
                     </Link>
                   </div>
                 </div>
                 <h3 className="text-white font-semibold text-lg mb-2">{item.title}</h3>
-                <p className="text-brand-neon font-bold text-xl">{item.price}</p>
+                <p className="text-brand-gold font-bold text-xl">{item.price}</p>
               </div>
             ))}
           </div>
@@ -110,7 +110,7 @@ const Index = () => {
           <div className="text-center">
             <Link
               to="/lookbook"
-              className="inline-flex items-center gap-2 text-brand-neon hover:text-white transition-colors duration-200 font-semibold text-lg"
+              className="inline-flex items-center gap-2 text-brand-gold hover:text-white transition-colors duration-200 font-semibold text-lg"
             >
               View Full Collection
               <ArrowRight size={20} />
@@ -133,7 +133,7 @@ const Index = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
               <div key={item} className="aspect-square bg-brand-grey rounded-lg overflow-hidden group cursor-pointer">
-                <div className="w-full h-full bg-gradient-to-br from-brand-neon/20 to-brand-electric/20 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <div className="w-full h-full bg-gradient-to-br from-brand-gold/20 to-brand-darkgold/20 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
                   <Instagram size={32} className="text-white/50" />
                 </div>
               </div>
@@ -145,7 +145,7 @@ const Index = () => {
               href="https://instagram.com/mandm.fashion_"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-neon to-brand-electric text-brand-black px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-brand-neon/25 transition-all duration-300 hover-scale"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-gold to-brand-darkgold text-brand-black px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-brand-gold/25 transition-all duration-300 hover-scale"
             >
               <Instagram size={20} />
               @mandm.fashion_
@@ -155,7 +155,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-brand-neon to-brand-electric">
+      <section className="py-20 bg-gradient-to-r from-brand-gold to-brand-darkgold">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center mb-6">
             <Zap size={32} className="text-brand-black" />

@@ -57,15 +57,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom brand colors
+				// Custom brand colors - Updated to black and gold theme
 				brand: {
 					black: '#000000',
 					grey: '#1A1A1A',
 					charcoal: '#2A2A2A',
 					beige: '#F5F5DC',
 					cream: '#FEFEF7',
-					neon: '#00FF88',
-					electric: '#FF3366',
+					gold: '#FFD700',
+					darkgold: '#B8860B',
 				},
 			},
 			borderRadius: {
@@ -104,9 +104,9 @@ export default {
 					'0%': { transform: 'translateX(100%)' },
 					'100%': { transform: 'translateX(0)' }
 				},
-				'pulse-neon': {
-					'0%, 100%': { boxShadow: '0 0 5px #00FF88, 0 0 10px #00FF88, 0 0 15px #00FF88' },
-					'50%': { boxShadow: '0 0 10px #00FF88, 0 0 20px #00FF88, 0 0 30px #00FF88' }
+				'pulse-gold': {
+					'0%, 100%': { boxShadow: '0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700' },
+					'50%': { boxShadow: '0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700' }
 				}
 			},
 			animation: {
@@ -114,7 +114,7 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in-right': 'slide-in-right 0.3s ease-out',
-				'pulse-neon': 'pulse-neon 2s ease-in-out infinite',
+				'pulse-gold': 'pulse-gold 2s ease-in-out infinite',
 			}
 		}
 	},

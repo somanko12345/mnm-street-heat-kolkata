@@ -77,7 +77,7 @@ Instagram: ${formData.instagram}`;
       <section className="bg-brand-grey py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center mb-6">
-            <ShoppingBag size={48} className="text-brand-neon" />
+            <ShoppingBag size={48} className="text-brand-gold" />
           </div>
           <h1 className="text-4xl sm:text-5xl font-display font-bold mb-4">
             <span className="text-white">PLACE YOUR</span>
@@ -107,7 +107,7 @@ Instagram: ${formData.instagram}`;
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-neon focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -125,7 +125,7 @@ Instagram: ${formData.instagram}`;
                   value={formData.phone}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-neon focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors"
                   placeholder="+91 98765 43210"
                 />
               </div>
@@ -142,7 +142,7 @@ Instagram: ${formData.instagram}`;
                   value={formData.item}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white focus:border-brand-neon focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white focus:border-brand-gold focus:outline-none transition-colors"
                 >
                   <option value="">Select an item</option>
                   {popularItems.map((item) => (
@@ -163,7 +163,7 @@ Instagram: ${formData.instagram}`;
                   value={formData.size}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white focus:border-brand-neon focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white focus:border-brand-gold focus:outline-none transition-colors"
                 >
                   <option value="">Select size</option>
                   <option value="S">S (Small)</option>
@@ -192,7 +192,7 @@ Instagram: ${formData.instagram}`;
                   name="instagram"
                   value={formData.instagram}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-neon focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 bg-brand-charcoal border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors"
                   placeholder="@yourusername"
                 />
                 <p className="text-gray-400 text-sm mt-1">
@@ -204,7 +204,7 @@ Instagram: ${formData.instagram}`;
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-brand-neon text-brand-black py-4 px-6 rounded-lg font-bold text-lg hover:bg-brand-neon/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full bg-brand-gold text-brand-black py-4 px-6 rounded-lg font-bold text-lg hover:bg-brand-darkgold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {isSubmitting ? (
                   <>

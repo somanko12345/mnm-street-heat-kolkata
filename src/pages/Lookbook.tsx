@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Filter, Grid, List } from "lucide-react";
@@ -115,7 +116,7 @@ const Lookbook = () => {
                   onClick={() => setSelectedCategory(category.id)}
                   className={`px-4 py-2 rounded-full font-medium transition-colors duration-200 ${
                     selectedCategory === category.id
-                      ? 'bg-brand-neon text-brand-black'
+                      ? 'bg-brand-gold text-brand-black'
                       : 'bg-brand-grey text-white hover:bg-brand-charcoal'
                   }`}
                 >
@@ -129,7 +130,7 @@ const Lookbook = () => {
               <button
                 onClick={() => setViewMode('grid')}
                 className={`p-2 rounded-md transition-colors duration-200 ${
-                  viewMode === 'grid' ? 'bg-brand-neon text-brand-black' : 'text-gray-400 hover:text-white'
+                  viewMode === 'grid' ? 'bg-brand-gold text-brand-black' : 'text-gray-400 hover:text-white'
                 }`}
               >
                 <Grid size={18} />
@@ -137,7 +138,7 @@ const Lookbook = () => {
               <button
                 onClick={() => setViewMode('list')}
                 className={`p-2 rounded-md transition-colors duration-200 ${
-                  viewMode === 'list' ? 'bg-brand-neon text-brand-black' : 'text-gray-400 hover:text-white'
+                  viewMode === 'list' ? 'bg-brand-gold text-brand-black' : 'text-gray-400 hover:text-white'
                 }`}
               >
                 <List size={18} />
@@ -173,7 +174,7 @@ const Lookbook = () => {
                   <div className="absolute inset-0 bg-brand-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <Link
                       to={`/order?item=${encodeURIComponent(product.name)}`}
-                      className="bg-brand-neon text-brand-black px-6 py-3 rounded-lg font-semibold hover:bg-brand-neon/90 transition-colors transform translate-y-4 group-hover:translate-y-0 duration-300"
+                      className="bg-brand-gold text-brand-black px-6 py-3 rounded-lg font-semibold hover:bg-brand-darkgold transition-colors transform translate-y-4 group-hover:translate-y-0 duration-300"
                     >
                       Order Now
                     </Link>
@@ -181,10 +182,10 @@ const Lookbook = () => {
                 </div>
                 
                 <div className={viewMode === 'list' ? 'flex-1' : ''}>
-                  <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-brand-neon transition-colors">
+                  <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-brand-gold transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-brand-neon font-bold text-xl mb-3">{product.price}</p>
+                  <p className="text-brand-gold font-bold text-xl mb-3">{product.price}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
                     {product.sizes.map((size) => (
@@ -200,7 +201,7 @@ const Lookbook = () => {
                   {viewMode === 'list' && (
                     <Link
                       to={`/order?item=${encodeURIComponent(product.name)}`}
-                      className="inline-block bg-brand-neon text-brand-black px-6 py-2 rounded-lg font-semibold hover:bg-brand-neon/90 transition-colors"
+                      className="inline-block bg-brand-gold text-brand-black px-6 py-2 rounded-lg font-semibold hover:bg-brand-darkgold transition-colors"
                     >
                       Order Now
                     </Link>
