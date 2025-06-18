@@ -11,73 +11,73 @@ const Lookbook = () => {
     { id: 'all', name: 'All Items' },
     { id: 'hoodies', name: 'Hoodies' },
     { id: 'tees', name: 'T-Shirts' },
-    { id: 'pants', name: 'Pants' },
-    { id: 'accessories', name: 'Accessories' },
+    { id: 'jerseys', name: 'Jerseys' },
+    { id: 'shirts', name: 'Shirts' },
   ];
 
   const products = [
     {
       id: 1,
-      name: "Oversized Streetwear Hoodie",
-      price: "₹1,999",
-      category: "hoodies",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
+      name: "Oversized Graphic Print Tee",
+      price: "₹899",
+      category: "tees",
+      image: "/lovable-uploads/b6e58205-7179-45e0-8ce7-2c98b66b2397.png",
       sizes: ["S", "M", "L", "XL", "XXL"]
     },
     {
       id: 2,
-      name: "Oversized Graphic Print Tee",
-      price: "₹899",
-      category: "tees",
-      image: "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=400&h=500&fit=crop",
+      name: "Oversized Football Jersey Collection",
+      price: "₹1,499",
+      category: "jerseys",
+      image: "/lovable-uploads/b7ceb631-03d6-4ba6-9bf1-f7dab8c868e2.png",
       sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 3,
-      name: "Oversized Cargo Utility Pants",
-      price: "₹2,499",
-      category: "pants",
-      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop",
-      sizes: ["28", "30", "32", "34", "36"]
+      name: "Oversized Vintage Washed Shirt",
+      price: "₹1,299",
+      category: "shirts",
+      image: "/lovable-uploads/c03c488e-b3fe-45bf-953f-084778665bf4.png",
+      sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 4,
-      name: "Oversized Distressed Denim Jacket",
-      price: "₹3,299",
-      category: "hoodies",
-      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
+      name: "Oversized Argentina Jersey",
+      price: "₹1,399",
+      category: "jerseys",
+      image: "/lovable-uploads/2dcb935d-6da2-4e44-b831-4162bd710fb7.png",
       sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 5,
-      name: "Oversized Vintage Wash Tee",
-      price: "₹1,199",
-      category: "tees",
-      image: "https://images.unsplash.com/photo-1583743814966-8936f37f4ad2?w=400&h=500&fit=crop",
+      name: "Oversized Sports Jersey Collection",
+      price: "₹1,599",
+      category: "jerseys",
+      image: "/lovable-uploads/9bd4aa75-b402-42e4-bbd0-d86ab5801897.png",
       sizes: ["S", "M", "L", "XL", "XXL"]
     },
     {
       id: 6,
-      name: "Oversized Wide Leg Trousers",
-      price: "₹2,799",
-      category: "pants",
-      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop",
-      sizes: ["28", "30", "32", "34"]
+      name: "Oversized Street Graphics Tee",
+      price: "₹999",
+      category: "tees",
+      image: "/lovable-uploads/9fbdc85a-ff8a-47af-a44e-aa29254f38fd.png",
+      sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 7,
-      name: "Oversized Bucket Hat",
-      price: "₹699",
-      category: "accessories",
-      image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=500&fit=crop",
-      sizes: ["One Size"]
+      name: "Oversized Hip-Hop Culture Tee",
+      price: "₹899",
+      category: "tees",
+      image: "/lovable-uploads/25630896-ef77-41b7-baa0-63a31203e046.png",
+      sizes: ["S", "M", "L", "XL"]
     },
     {
       id: 8,
-      name: "Oversized Cropped Hoodie",
-      price: "₹1,799",
-      category: "hoodies",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
+      name: "Oversized Boxy Fit Shirt",
+      price: "₹1,199",
+      category: "shirts",
+      image: "/lovable-uploads/d6e239ed-6447-4a9a-9445-e6a8795c766e.png",
       sizes: ["S", "M", "L", "XL"]
     },
   ];

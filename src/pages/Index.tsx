@@ -11,7 +11,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1556821840-3a9fbc86780e?w=1200&h=800&fit=crop')`
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/lovable-uploads/9bd4aa75-b402-42e4-bbd0-d86ab5801897.png')`
           }}
         />
         
@@ -70,19 +70,19 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
               {
-                title: "Oversized Hoodies",
-                price: "₹1,999",
-                image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop"
-              },
-              {
-                title: "Oversized Cargo Pants",
-                price: "₹2,499",
-                image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop"
-              },
-              {
                 title: "Oversized Graphic Tees",
                 price: "₹899",
-                image: "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=400&h=500&fit=crop"
+                image: "/lovable-uploads/b6e58205-7179-45e0-8ce7-2c98b66b2397.png"
+              },
+              {
+                title: "Oversized Jersey Collection",
+                price: "₹1,499",
+                image: "/lovable-uploads/b7ceb631-03d6-4ba6-9bf1-f7dab8c868e2.png"
+              },
+              {
+                title: "Oversized Vintage Shirts",
+                price: "₹1,299",
+                image: "/lovable-uploads/c03c488e-b3fe-45bf-953f-084778665bf4.png"
               }
             ].map((item, index) => (
               <div key={index} className="group cursor-pointer">
@@ -131,11 +131,22 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-              <div key={item} className="aspect-square bg-brand-grey rounded-lg overflow-hidden group cursor-pointer">
-                <div className="w-full h-full bg-gradient-to-br from-brand-gold/20 to-brand-darkgold/20 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <Instagram size={32} className="text-white/50" />
-                </div>
+            {[
+              "/lovable-uploads/9fbdc85a-ff8a-47af-a44e-aa29254f38fd.png",
+              "/lovable-uploads/25630896-ef77-41b7-baa0-63a31203e046.png",
+              "/lovable-uploads/d6e239ed-6447-4a9a-9445-e6a8795c766e.png",
+              "/lovable-uploads/2dcb935d-6da2-4e44-b831-4162bd710fb7.png",
+              "/lovable-uploads/b7ceb631-03d6-4ba6-9bf1-f7dab8c868e2.png",
+              "/lovable-uploads/9bd4aa75-b402-42e4-bbd0-d86ab5801897.png",
+              "/lovable-uploads/b6e58205-7179-45e0-8ce7-2c98b66b2397.png",
+              "/lovable-uploads/c03c488e-b3fe-45bf-953f-084778665bf4.png"
+            ].map((image, index) => (
+              <div key={index} className="aspect-square bg-brand-grey rounded-lg overflow-hidden group cursor-pointer">
+                <img
+                  src={image}
+                  alt={`M&M Fashion Style ${index + 1}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
             ))}
           </div>
